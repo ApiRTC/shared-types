@@ -1,0 +1,8 @@
+{
+    "name": "@apizee/shared-types",
+    "version": "0.1.0",
+    "types": "./index.d.ts",
+    "peerDependencies": {
+        "@apirtc/apirtc": "^5.0.17"
+    }
+}
