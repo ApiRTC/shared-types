@@ -5,6 +5,7 @@ export type InvitationData = {
     apiKey?: string;
     // TBD: this might become an ApiRTC platform configuration instead (per apiKey or even per userAgent id).
     callStatsMonitoringInterval?: number;
+    logo?: { url: string, alt: string };
     conversation: {
         name: string; friendlyName?: string;
         //moderationEnabled?: boolean;;
